@@ -54,11 +54,11 @@
             </div>
             <div class="col-lg-4 text-center text-lg-end">
                 <div class="d-inline-flex align-items-center" style="height: 45px;">
-                    <a class="btn btn-sm btn-outline-light btn-sm-square rounded-circle me-2" href=""><i class="fab fa-twitter fw-normal"></i></a>
-                    <a class="btn btn-sm btn-outline-light btn-sm-square rounded-circle me-2" href=""><i class="fab fa-facebook-f fw-normal"></i></a>
-                    <a class="btn btn-sm btn-outline-light btn-sm-square rounded-circle me-2" href=""><i class="fab fa-linkedin-in fw-normal"></i></a>
-                    <a class="btn btn-sm btn-outline-light btn-sm-square rounded-circle me-2" href=""><i class="fab fa-instagram fw-normal"></i></a>
-                    <a class="btn btn-sm btn-outline-light btn-sm-square rounded-circle" href=""><i class="fab fa-youtube fw-normal"></i></a>
+                    <!--a class="btn btn-sm btn-outline-light btn-sm-square rounded-circle me-2" href=""><i class="fab fa-twitter fw-normal"></i></a-->
+                    <a class="btn btn-sm btn-outline-light btn-sm-square rounded-circle me-2" href="https://www.facebook.com/profile.php?id=100092000151711&mibextid=ZbWKwL"><i class="fab fa-facebook-f fw-normal"></i></a>
+                    <!--a class="btn btn-sm btn-outline-light btn-sm-square rounded-circle me-2" href=""><i class="fab fa-linkedin-in fw-normal"></i></a-->
+                    <a class="btn btn-sm btn-outline-light btn-sm-square rounded-circle me-2" href="https://www.instagram.com/wildrio_wfm?igsh=MXU2b3hmcGVydzdtYg=="><i class="fab fa-instagram fw-normal"></i></a>
+                    <!--a class="btn btn-sm btn-outline-light btn-sm-square rounded-circle" href=""><i class="fab fa-youtube fw-normal"></i></a-->
                 </div>
             </div>
         </div>
@@ -72,7 +72,7 @@
             <a href="" class="navbar-brand p-0">
                 <!--h1 class="text-primary m-0"><i class="fa fa-map-marker-alt me-3"></i>Wild Rio</h1-->
                 <!--i><img src="img/logo.png" alt="Logo"></i-->
-                <i><img src="{% static 'img/logo.png' %}" alt="" width="90" height="200"></i>
+                <i><img src="{% static 'img/logo.png' %}" alt="" width="80" height="80"></i>
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
                 <span class="fa fa-bars"></span>
@@ -184,8 +184,8 @@
                 <h6 class="section-title bg-white text-center text-primary px-3">Services</h6>
                 <h1 class="mb-5">Our Services</h1>
             </div>
-            <div class="row g-4">
-                <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.1s">
+            <div class="row g-4 justify-content-center"">
+                <div class="col-lg-4 col-sm-6 wow fadeInUp" data-wow-delay="0.1s">
                     <div class="service-item rounded pt-3">
                         <div class="p-2">
                             <!--i class="fa fa-3x fa-globe text-primary mb-0"></i-->
@@ -193,7 +193,7 @@
                             <h5>Off-road Jeep Safari</h5>
                             <font size=2.5>
                             <ul>
-                                <li>Pickup & Drop 3+3km</li>                        
+                                <li>Pickup & Drop 3+3km <br>(Near Kozhippara WaterFalls, Kakkadampoyil)</li>                        
                                 <li>Waterfall Visit</li>
                                 <li>Mini Hiking</li>                                
                                 <li>Music</li>
@@ -201,6 +201,47 @@
                             </font>
                             <!--font size=1>Check In&nbsp&nbsp&nbsp&nbsp: 3.30pm</font><br>
                             <font size=1>Check Out&nbsp: 12.00pm </font-->                      
+                        </div>
+                        
+                    </div>
+                </div>
+                
+                <div class="col-lg-4 col-sm-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="service-item rounded pt-3">
+                        <div class="p-2">
+                            <!--i class="fa fa-3x fa-globe text-primary mb-0"></i-->
+                            <i><img src="{% static 'img/waterfall.png' %}" alt="" width="50" heigh="50"></i>
+                            <h5>Other Activities</h5>
+                            <font size=2.5>
+                            <ul>
+                            <li>Grassland Trekking </li>
+                            <li>WaterFalls Visit </li>
+                            <li>Jungle Walk</li>
+                            <li>River Bath</li>
+                            <br>
+                            <br>
+                            </ul>
+                            </font>                 
+                        </div>
+                        
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="service-item rounded pt-3">
+                        <div class="p-2">
+                            <i><img src="{% static 'img/bonfire.png' %}" alt="" width="50" heigh="50"></i>
+                            <!--i class="fa fa-3x fa-globe text-primary mb-0"></i-->
+                            <h5>Add-On Activities</h5>
+                            <font size=2.5>
+                            <ul>
+                            <li>Campfire : Rs.500/Hr </li>
+                            <li>Adl Off-Road Drive : 1500/Jeep </li>
+                            <li>Heavy Trekking : 500/Team</li>
+                            <li>Waterfall Trekking : 500/Team</li>
+                            <li>BBQ - 500/Kg</li>
+                            <br>
+                            </ul>
+                            </font>                 
                         </div>
                         
                     </div>
@@ -239,23 +280,6 @@
                         
                     </div>
                 </div>
-                <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="service-item rounded pt-3">
-                        <div class="p-3">
-                            <!--i class="fa fa-3x fa-globe text-primary mb-0"></i-->
-                            <h5>Add-On Activities</h5>
-                            <font size=2.5>
-                            Campfire : Rs.500/Hr  <br>
-                            Adl Off-Road Drive : 1500/Jeep <br>
-                            Heavy Trekking : 500/Team<br>
-                            Waterfall Trekking : 500/Team<br>
-                            BBQ - 500/Kg<br>
-                            </font>                 
-                        </div>
-                        
-                    </div>
-                </div>
-                
                 <!--div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.3s">
                     <div class="service-item rounded pt-3">
                         <div class="p-4">
@@ -654,51 +678,52 @@
             </div>
             <div class="owl-carousel testimonial-carousel position-relative">
                 <div class="testimonial-item bg-white text-center border p-1">
-                    <img src="{% static 'img/testimonial-1.jpg' %}" style="width: 287px; height: 300px;">
+                    <img src="{% static 'img/testimonial-1.jpg' %}" style="max-width: 100%; height: 300px;">
+                    <!--img src="{% static 'img/testimonial-1.jpg' %}" style="width: 287px; height: 300px;"-->
                     <!--h5 class="mb-0">Samantha H</h5>
                     <p>Calicut</p>
                     <p class="mb-0">"JourneyJive transformed my vacation into an unforgettable and extraordinary adventure. From the moment I booked to the final farewell, their attention to detail was impeccable. The personalized service and expertly curated experiences allowed me to explore destinations like never before. JourneyJive turned my travel dreams into a reality, and I can't wait for my next journey with them!"</p-->
                 </div>
                 <div class="testimonial-item bg-white text-center border p-1">
-                    <img src="{% static 'img/testimonial-2.jpg' %}" style="width: 287px; height: 300px;">
+                    <img src="{% static 'img/testimonial-2.jpg' %}" style="max-width: 100%; height: 300px;">
                     <!--h5 class="mb-0">Rajesh K</h5>
                     <p>Kottayam</p>
                     <p class="mt-2 mb-0">"Choosing JourneyJive was the best decision for our family trip. The well-planned itinerary, excellent accommodations, and knowledgeable guides made our journey seamless and enjoyable. JourneyJive didn't just take us to places; they crafted an experience that we'll cherish forever. Highly recommend their services for anyone seeking a perfect blend of adventure and comfort."</p-->
                 </div>
                 <div class="testimonial-item bg-white text-center border p-1">
-                    <img src="{% static 'img/testimonial-3.jpg' %}" style="width: 287px; height: 300px;">
+                    <img src="{% static 'img/testimonial-3.jpg' %}" style="max-width: 100%; height: 300px;">
                     <!--h5 class="mb-0">Adarsh </h5>
                     <p>Trivandrum</p>
                     <p class="mt-2 mb-0">"As a solo traveler, JourneyJive provided the perfect mix of freedom and support. The team's responsiveness and the thoughtful details in my itinerary made me feel secure and cared for throughout my journey. I explored hidden gems and met incredible people, all thanks to JourneyJive's expertise. An excellent choice for those seeking a solo adventure with a touch of luxury."</p-->
                 </div>
                 <div class="testimonial-item bg-white text-center border p-1">
                     <!--img class="bg-white rounded-circle shadow p-1 mx-auto mb-3" src="{% static 'img/testimonial-4.jpg' %}" style="width: 80px; height: 80px;"-->
-                    <img src="{% static 'img/testimonial-4.jpg' %}" style="width: 287px; height: 300px;">
+                    <img src="{% static 'img/testimonial-4.jpg' %}" style="max-width: 100%; height: 300px;">
                     
                     <!--h5 class="mb-0">Emily</h5>
                     <p>Palakkad</p>
                     <p class="mt-2 mb-0">"Our group trip organized by JourneyJive exceeded all expectations. The flawless coordination of transportation, accommodations, and activities made our travel experience stress-free and enjoyable. The unique experiences they curated for us created lasting memories and strengthened our bonds as a group. JourneyJive truly knows how to turn a trip into a remarkable adventure."</p-->
                 </div>
                 <div class="testimonial-item bg-white text-center border p-1">
-                    <img src="{% static 'img/testimonial-5.jpg' %}" style="width: 287px; height: 300px;">
+                    <img src="{% static 'img/testimonial-5.jpg' %}" style="max-width: 100%; height: 300px;">
                     <!--h5 class="mb-0">Rajesh K</h5>
                     <p>Kottayam</p>
                     <p class="mt-2 mb-0">"Choosing JourneyJive was the best decision for our family trip. The well-planned itinerary, excellent accommodations, and knowledgeable guides made our journey seamless and enjoyable. JourneyJive didn't just take us to places; they crafted an experience that we'll cherish forever. Highly recommend their services for anyone seeking a perfect blend of adventure and comfort."</p-->
                 </div>
                 <div class="testimonial-item bg-white text-center border p-1">
-                    <img src="{% static 'img/testimonial-6.jpg' %}" style="width: 287px; height: 300px;">
+                    <img src="{% static 'img/testimonial-6.jpg' %}" style="max-width: 100%; height: 300px;">
                 </div>
                 <div class="testimonial-item bg-white text-center border p-1">
-                    <img src="{% static 'img/testimonial-7.jpg' %}" style="width: 287px; height: 300px;">
+                    <img src="{% static 'img/testimonial-7.jpg' %}" style="max-width: 100%; height: 300px;">
                 </div>
                 <div class="testimonial-item bg-white text-center border p-1">
-                    <img src="{% static 'img/testimonial-8.jpg' %}" style="width: 287px; height: 300px;">
+                    <img src="{% static 'img/testimonial-8.jpg' %}" style="max-width: 100%; height: 300px;">
                 </div>
                 <div class="testimonial-item bg-white text-center border p-1">
-                    <img src="{% static 'img/testimonial-9.jpg' %}" style="width: 287px; height: 300px;">
+                    <img src="{% static 'img/testimonial-9.jpg' %}" style="max-width: 100%; height: 300px;">
                 </div>
                 <div class="testimonial-item bg-white text-center border p-1">
-                    <img src="{% static 'img/testimonial-10.jpg' %}" style="width: 287px; height: 300px;">
+                    <img src="{% static 'img/testimonial-10.jpg' %}" style="max-width: 100%; height: 300px;">
                 </div>
             </div>
         </div>
